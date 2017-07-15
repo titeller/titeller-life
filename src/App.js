@@ -8,7 +8,7 @@ class App extends Component {
         <div className="overlay">
           <div className="text-center">
             <div className="wrapper">
-              <img src="/me.jpg" className="me-avatar" />
+              <img src="/me.jpg" className="me-avatar" alt="me-avatar" />
               <h1>Hi, i am Ti</h1>
               <h3>What you want to know just ask me.</h3>
             </div>
