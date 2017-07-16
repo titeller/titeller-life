@@ -10,7 +10,7 @@ class App extends Component {
             <div className="wrapper">
               <img src="/me.jpg" className="me-avatar" alt="me-avatar" />
               <h1>Hi, i am Ti</h1>
-              <h3>What you want to know just ask me.</h3>
+              <h3>What i should to do on this website?</h3>
             </div>
           </div>
         </div>
