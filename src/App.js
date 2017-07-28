@@ -13,7 +13,7 @@ class App extends Component {
         <div className="overlay">
           <div className="video-background">
             <div className="video-foreground">
-              <iframe src={`https://www.youtube.com/embed/${video}?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=${video}`} frameBorder="0" allowFullScreen title="xDeep Music" />
+              <iframe className="youtube-player" type="text/html" src={`https://www.youtube.com/embed/${video}?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=${video}`} frameBorder="0" allowFullScreen title="xDeep Music" />
             </div>
           </div>
           <div className="text-center">
