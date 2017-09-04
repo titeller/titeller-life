@@ -3,7 +3,7 @@ import './App.css';
 
 class App extends Component {
   state = {
-    playList: ['NK-AVgHnHPE', '69XxhLBASdY', 'BnqfXlEKw44', 'piZ4vWZ6DLo', 'G_6lJRfvNpU']
+    playList: ['XY7YGoHi32E']
   }
   render() {
     const { playList } = this.state
@@ -19,12 +19,8 @@ class App extends Component {
           <div className="text-center">
             <div className="wrapper">
               <img src="/me.jpg" className="me-avatar" alt="me-avatar" />
-              <h1>Hi, i am Ti</h1>
-              <h3>What i should to do on this website?</h3>
-              <span className="text-small">
-                <span>Video by </span>
-                <a href="https://www.youtube.com/channel/UCSSEXzYHBijpCPJdiZbS7mw/featured" target="_blank" rel="noopener noreferrer">XDeep Music</a>
-              </span>
+              <h1>Hi, I'm Ti</h1>
+              <h3>What should i do on this website?</h3>
             </div>
           </div>
         </div>
